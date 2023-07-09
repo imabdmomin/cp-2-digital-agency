@@ -1,18 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
-
-
-
-
-
-
-
-
-
+.nav-container {
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+.menus {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    gap: 30px;
+}
 .banner-container{
     height: 100vh;
-    background-image: url(./digital-agency-main/asset/image/background.jpg),linear-gradient(#2b2828 rgb(107, 107, 139));
+    background-image: url("./asset/image/background.jpg"),linear-gradient(#5a5858,#4c4b4b);
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: cover ;
-    
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+}
+.banner-text{
+    color: white;
+  
+   align-items: center;
+}
+.banner-text h1{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-text p{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 22px;
+}
+.digital-span{
+    color: red;
+}
+.btn{background-color: red;
+    padding: 15px 25px;
+    margin-top: 15px;
+    color: white;
+    border: 0;
+    font-size: 18px;
+}
+.btn-2{
+    background-color: white;
+    color: black;
 }
