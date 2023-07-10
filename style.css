@@ -10,6 +10,7 @@
     padding: 10px;
     align-items: center;
 }
+
 .menus {
     list-style: none;
     display: flex;
@@ -17,9 +18,10 @@
     margin-right: 20px;
     gap: 30px;
 }
-.banner-container{
+
+.banner-container {
     height: 100vh;
-    background-image: url("./asset/image/background.jpg"),linear-gradient(#5a5858,#4c4b4b);
+    background-image: url("./asset/image/background.jpg"), linear-gradient(#5a5858, #4c4b4b);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,34 +29,185 @@
     display: flex;
     align-items: center;
     text-align: center;
-   
+
 }
-.banner-text{
+
+.banner-text {
     color: white;
-  
-   align-items: center;
+
 }
-.banner-text h1{
+
+.banner-text h1 {
     font-size: 85px;
     font-weight: bold;
 }
-.banner-text p{
+
+.banner-text p {
     text-align: center;
     width: 50%;
     margin: auto;
     font-size: 22px;
 }
-.digital-span{
+
+.digital-span {
     color: red;
 }
-.btn{background-color: red;
+
+.btn {
+    background-color: red;
     padding: 15px 25px;
     margin-top: 15px;
     color: white;
     border: 0;
     font-size: 18px;
 }
-.btn-2{
+
+.btn-2 {
     background-color: white;
     color: black;
+}
+
+/* sevice style start */
+.service-container {
+    height: 100vh;
+    display: flex;
+    background-image: url("./asset/image/footer-bg.png"), linear-gradient(#020202, #2c2727);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+
+}
+
+.service-icon {
+    width: 100px;
+}
+
+.box {
+    padding: 50px;
+    width: 185px;
+    height: 190px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    margin-top: 8px;
+    margin-right: 20px;
+    box-shadow: 5px 10px #050505;
+    border-radius: 8px;
+}
+
+.right-side-box {
+    display: flex;
+    margin-top: 100px;
+}
+
+.left-service-text h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+
+}
+
+.service-text p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.service-text ol {
+    font-size: 20px;
+    padding: 25px;
+
+}
+
+.left-service-text {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+
+}
+
+.author-photo {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+.author-left {
+    display: flex;
+    gap: 15px;
+    padding-top: 25px;
+    align-items: center;
+}
+
+.author {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 150px;
+    align-items: center;
+}
+
+.author-title {
+    font-size: 12px;
+    /* font-weight: normal; */
+}
+
+.vl {
+    border-left: 1px solid red;
+    height: 70px;
+    margin-left: 100px;
+}
+
+.service-btn {
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: red;
+    border: 0px;
+
+
+}
+
+.left-service-total {
+    align-items: center;
+}
+
+/* appoinment style */
+.appointment-container {
+    display: flex;
+  justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    /* height: 170px; */
+    background-color: red;
+    margin-top: -50px;
+    border-radius: 10px;
+    padding: 50px;
+
+}
+.big-phone{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.call-icon {
+    width: 80px;
+}
+
+.appointment1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    gap: 20px;
+}
+.appointment-description{
+    color: white;
+    border-left: 2px solid black;
+   padding-left: 55px;
+}
+.appointment-info{
+    /* width: 50%; */
+    margin: auto;
+    font-size: 18px;
 }
