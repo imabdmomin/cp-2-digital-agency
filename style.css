@@ -174,7 +174,7 @@
 /* appoinment style */
 .appointment-container {
     display: flex;
-  justify-content: space-around;
+    justify-content: space-around;
     align-items: center;
     width: 70%;
     margin: auto;
@@ -185,7 +185,8 @@
     padding: 50px;
 
 }
-.big-phone{
+
+.big-phone {
     font-size: 30px;
     font-weight: 600;
 }
@@ -201,13 +202,55 @@
     justify-content: space-between;
     gap: 20px;
 }
-.appointment-description{
+
+.appointment-description {
     color: white;
     border-left: 2px solid black;
-   padding-left: 55px;
+    padding-left: 55px;
 }
-.appointment-info{
+
+.appointment-info {
     /* width: 50%; */
     margin: auto;
     font-size: 18px;
+}
+
+/* blogsection style */
+.blog-title{
+    font-size: 55px;
+}
+.bolg-description p{
+    font-size: 25px;
+
+}
+.bolg-description{
+    text-align: center;
+    padding: 50px;
+}
+
+.blog-img {
+    width: 370px;
+    box-shadow: 4px 4px 4px gray;
+    border-radius: 8px;
+    padding: 0px;
+}
+
+.blog-box {
+    width: 370px;
+    height: 420px;
+    /* text-align: justify; */
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #777;
+
+}
+
+.blog-box-description {
+    padding: 25px 10px;
+}
+.blog-box-all{
+    display: flex;
+    justify-content: space-around;
+    
+    margin: auto;
 }
